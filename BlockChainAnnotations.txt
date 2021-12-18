@@ -1,0 +1,26 @@
+Blockchain é uma lista contínua e crescente de registros, chamados de blocos, que estão conectados e seguros usando criptografia.
+
+O bloco tem os dados, hash anterior e a hash(assinatura/impressão digital do bloco). Cada hash é única.
+
+hash sha256 - 64 chars - 1 em 60.000.000 a chance de se repetir
+requisitos pro hash:
+	1.Sem retorno (não pode descriptografar)
+	2.Determinístico (o hash gerado para um conjunto de dados é sempre o mesmo)
+	3.Processamento rápido
+	4.Efeito avalanche (qualquer minima alteração altera o hash completamente)
+	5.Deve suportar colisões (O algoritmo não deve suportar hashs criadas manualmente para forjar documentos)
+	
+Registros Imutáveis:
+	Um registro não pode ser alterado pois todos os seguintes estão ligados. Para alterar, todos os que vem depois teriam que ser alterados.
+	
+	
+	
+	
+	
+	
+	
+	
+Leituras adicionais:
+	"How to Time-Stamp a Digital Document" dos criadores do blockchain
+	"On the secure hash algorithm family" - cap 1
+	"the blockchain economy: a beginners guide to institutional cryptoeconomics"

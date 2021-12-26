@@ -14,13 +14,20 @@ Registros Imutáveis:
 	Um registro não pode ser alterado pois todos os seguintes estão ligados. Para alterar, todos os que vem depois teriam que ser alterados.
 	
 	
+Rede P2P distribuida
+	- o blockchain (inteiro ou parte dele) vai ser copiado para todos os computadores da rede.
+	- a rede constantemente verifica a integridade do bloco com os outros nós(pontos) da rede.
+	- para um hacker consegui alterar um registro ele teria que alterar na mesma hora em diversos nós conectados
 	
 	
 	
 	
-	
-	
+Mineração:
+	Nounce: campo no bloco que pode ser alterado para modificar o hash
+	Na mineração o algoritmo tenta gerar hashes com um objetivo especifico, ex: 16 zeros a esquerda
 Leituras adicionais:
 	"How to Time-Stamp a Digital Document" dos criadores do blockchain
 	"On the secure hash algorithm family" - cap 1
 	"the blockchain economy: a beginners guide to institutional cryptoeconomics"
+	"the meaning of decentralization" - vitalik buterin
+	ver a diferença de sistemas descentralizados e sistemas distribuidos

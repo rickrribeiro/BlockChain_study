@@ -1,0 +1,4 @@
+DeFi DeFi é a sigla para "Decentralized Finance”. 
+O DeFi é um protocolo que busca retirar os intermediários das transações financeiras -- sejam os bancos ou as próprias corretoras 
+de criptomoedas.
+Empréstimos, hipotecas, investimentos… São diversos os serviços financeiros que podem ser realizados em um ecossistema DeFi.
